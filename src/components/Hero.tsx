@@ -21,9 +21,8 @@ const Hero = () => {
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-foreground mb-6">
-            Soluções inovadoras para{" "}
-            <span className="gradient-text">alavancar</span>{" "}
-            o seu negócio
+            Inovação e tecnologia para sua empresa{" "}
+            <span className="gradient-text">crescer</span>
           </h1>
 
           <p className="text-lg text-muted-foreground max-w-xl mx-auto mb-10 leading-relaxed">
@@ -32,10 +31,12 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="#contato"
+              href="https://wa.me/5537998024141?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Nex%20e%20gostaria%20de%20saber%20mais."
+              target="_blank"
+              rel="noopener noreferrer"
               className="gradient-bg px-8 py-3.5 rounded-full text-primary-foreground font-semibold hover:opacity-90 transition-opacity flex items-center gap-2"
             >
-              Comece agora
+              Fale Conosco
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
