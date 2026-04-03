@@ -17,7 +17,7 @@ const Hero = () => {
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-border bg-secondary text-sm text-muted-foreground mb-8">
             <span className="w-2 h-2 rounded-full gradient-bg" />
-            Tecnologia e Marketing Digital
+            Soluções que transformam negócios
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-foreground mb-6">
