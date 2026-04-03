@@ -51,7 +51,7 @@ const Hero = () => {
             </a>
             <a
               href="#servicos"
-              className="px-8 py-3.5 rounded-full border border-border font-semibold hover:bg-secondary transition-colors text-foreground"
+              className="px-8 py-3.5 rounded-full border border-border font-semibold hover:bg-secondary transition-colors text-foreground bg-background"
             >
               Nossas soluções
             </a>
