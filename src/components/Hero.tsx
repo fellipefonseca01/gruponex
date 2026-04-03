@@ -4,7 +4,17 @@ import { ArrowRight } from "lucide-react";
 const Hero = () => {
   return (
     <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-      {/* Subtle gradient orb */}
+      {/* Grid background */}
+      <div
+        className="absolute inset-0 opacity-[0.07]"
+        style={{
+          backgroundImage:
+            "linear-gradient(to right, hsl(var(--foreground)) 1px, transparent 1px), linear-gradient(to bottom, hsl(var(--foreground)) 1px, transparent 1px)",
+          backgroundSize: "60px 60px",
+        }}
+      />
+
+      {/* Subtle gradient orbs */}
       <div className="absolute top-1/4 right-0 w-[500px] h-[500px] rounded-full gradient-bg opacity-[0.07] blur-3xl" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full gradient-bg opacity-[0.05] blur-3xl" />
 
