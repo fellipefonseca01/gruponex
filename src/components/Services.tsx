@@ -1,36 +1,26 @@
 import { motion } from "framer-motion";
-import { Code, BarChart3, Megaphone, Smartphone, Globe, Zap } from "lucide-react";
+import { Code, Gift, Users, Bot } from "lucide-react";
 
-const services = [
+const solutions = [
   {
     icon: Code,
-    title: "Desenvolvimento Web",
-    description: "Sites e aplicações sob medida, com foco em performance e experiência do usuário.",
+    title: "Nex Tecnologia e Marketing",
+    description: "Soluções completas em tecnologia e marketing digital para posicionar sua empresa no mercado e gerar resultados reais.",
   },
   {
-    icon: BarChart3,
-    title: "Marketing Digital",
-    description: "Estratégias completas de tráfego pago, SEO e redes sociais para escalar seus resultados.",
+    icon: Gift,
+    title: "Maxxi Bônus",
+    description: "Sistema de cashback e indicação via WhatsApp que fideliza clientes e impulsiona suas vendas de forma inteligente.",
   },
   {
-    icon: Megaphone,
-    title: "Branding & Design",
-    description: "Identidade visual marcante e materiais que comunicam o DNA da sua marca.",
+    icon: Users,
+    title: "Clube Indica",
+    description: "O sistema de indicação White-Label mais completo do Brasil. Transforme seus clientes em promotores da sua marca.",
   },
   {
-    icon: Smartphone,
-    title: "Aplicativos Mobile",
-    description: "Apps nativos e multiplataforma que conectam sua empresa ao seu público.",
-  },
-  {
-    icon: Globe,
-    title: "E-commerce",
-    description: "Lojas virtuais otimizadas para conversão e crescimento sustentável.",
-  },
-  {
-    icon: Zap,
-    title: "Automações",
-    description: "Processos automatizados que economizam tempo e aumentam a eficiência.",
+    icon: Bot,
+    title: "ZapFunnels",
+    description: "Agentes de IA via WhatsApp e disparo em massa. Automatize conversas e escale seu atendimento com inteligência artificial.",
   },
 ];
 
@@ -54,19 +44,19 @@ const Services = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <span className="text-sm font-semibold gradient-text uppercase tracking-widest">Serviços</span>
+          <span className="text-sm font-semibold gradient-text uppercase tracking-widest">Soluções</span>
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mt-3">
-            O que fazemos de melhor
+            Nossas soluções
           </h2>
           <p className="text-muted-foreground mt-4 max-w-lg mx-auto">
-            Soluções completas para posicionar sua empresa no mercado digital.
+            Ferramentas e estratégias completas para transformar e escalar o seu negócio.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {services.map((service, i) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {solutions.map((solution, i) => (
             <motion.div
-              key={service.title}
+              key={solution.title}
               custom={i}
               initial="hidden"
               whileInView="visible"
@@ -75,11 +65,10 @@ const Services = () => {
               className="group relative p-8 rounded-2xl border border-border bg-background hover:shadow-lg transition-shadow duration-300"
             >
               <div className="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center mb-5">
-                <service.icon className="w-6 h-6 text-primary-foreground" />
+                <solution.icon className="w-6 h-6 text-primary-foreground" />
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">{service.title}</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">{service.description}</p>
-              {/* Gradient hover line */}
+              <h3 className="text-lg font-semibold text-foreground mb-2">{solution.title}</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed">{solution.description}</p>
               <div className="absolute bottom-0 left-8 right-8 h-0.5 gradient-bg opacity-0 group-hover:opacity-100 transition-opacity rounded-full" />
             </motion.div>
           ))}
