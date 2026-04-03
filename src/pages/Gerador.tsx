@@ -268,10 +268,13 @@ const Gerador = () => {
     if (!canvasRef.current) return;
     setDownloading(true);
     try {
+      const refWidth = 432;
+      const refHeight = 540;
+      const scaleFactor = 1080 / refWidth; // 2.5
       const canvas = await html2canvas(canvasRef.current, {
-        width: 1080,
-        height: 1350,
-        scale: 1,
+        width: refWidth,
+        height: refHeight,
+        scale: scaleFactor,
         useCORS: true,
         backgroundColor: "#ffffff",
       });
@@ -447,7 +450,7 @@ const Gerador = () => {
             <div className="fixed -left-[9999px] top-0">
               <div
                 ref={canvasRef}
-                style={{ width: 1080, height: 1350 }}
+                style={{ width: 432, height: 540 }}
                 className="overflow-hidden"
               >
                 {template.render(title, subtitle, image, logo)}
