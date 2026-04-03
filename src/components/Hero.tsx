@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="absolute top-1/4 right-0 w-[500px] h-[500px] rounded-full gradient-bg opacity-[0.07] blur-3xl" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full gradient-bg opacity-[0.05] blur-3xl" />
 
-      <div className="container mx-auto px-6 text-center">
+      <div className="container mx-auto px-6 text-center relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
