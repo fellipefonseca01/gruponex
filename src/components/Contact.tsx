@@ -58,7 +58,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground">Localização</h3>
-                <p className="text-muted-foreground text-sm">São Paulo, SP - Brasil</p>
+                <p className="text-muted-foreground text-sm">Divinópolis, MG - Brasil</p>
               </div>
             </div>
           </motion.div>
