@@ -92,13 +92,15 @@ const Contact = () => {
               onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               className="w-full px-5 py-3.5 rounded-xl border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring text-sm resize-none"
             />
-            <button
-              type="submit"
+            <a
+              href="https://wa.me/5537998024141?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Nex%20e%20gostaria%20de%20saber%20mais."
+              target="_blank"
+              rel="noopener noreferrer"
               className="gradient-bg px-8 py-3.5 rounded-full text-primary-foreground font-semibold hover:opacity-90 transition-opacity flex items-center gap-2"
             >
-              Enviar mensagem
+              Enviar pelo WhatsApp
               <Send className="w-4 h-4" />
-            </button>
+            </a>
           </motion.form>
         </div>
       </div>

@@ -8,7 +8,7 @@ const Footer = () => {
           <img src={logo} alt="Nex" className="h-8" />
           <div className="flex items-center gap-8 text-sm text-muted-foreground">
             <a href="#inicio" className="hover:text-foreground transition-colors">Início</a>
-            <a href="#servicos" className="hover:text-foreground transition-colors">Serviços</a>
+            <a href="#solucoes" className="hover:text-foreground transition-colors">Soluções</a>
             <a href="#sobre" className="hover:text-foreground transition-colors">Sobre</a>
             <a href="#contato" className="hover:text-foreground transition-colors">Contato</a>
           </div>

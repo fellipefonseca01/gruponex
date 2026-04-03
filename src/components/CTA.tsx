@@ -24,7 +24,9 @@ const CTA = () => {
               Entre em contato e descubra como podemos ajudar sua empresa a crescer no digital.
             </p>
             <a
-              href="#contato"
+              href="https://wa.me/5537998024141?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Nex%20e%20gostaria%20de%20saber%20mais."
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-background text-foreground px-8 py-3.5 rounded-full font-semibold hover:bg-background/90 transition-colors"
             >
               Fale com um especialista
