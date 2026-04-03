@@ -21,9 +21,8 @@ const Hero = () => {
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-foreground mb-6">
-            Soluções inovadoras para{" "}
-            <span className="gradient-text">alavancar</span>{" "}
-            o seu negócio
+            Inovação e tecnologia para sua empresa{" "}
+            <span className="gradient-text">crescer</span>
           </h1>
 
           <p className="text-lg text-muted-foreground max-w-xl mx-auto mb-10 leading-relaxed">
