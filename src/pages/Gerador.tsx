@@ -450,7 +450,7 @@ const Gerador = () => {
             <div className="fixed -left-[9999px] top-0">
               <div
                 ref={canvasRef}
-                style={{ width: 1080, height: 1350 }}
+                style={{ width: 432, height: 540 }}
                 className="overflow-hidden"
               >
                 {template.render(title, subtitle, image, logo)}
