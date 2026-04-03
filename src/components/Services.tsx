@@ -68,7 +68,7 @@ const Services = () => {
 
         <div className="max-w-5xl mx-auto flex flex-col lg:flex-row gap-6">
           {/* Menu lateral */}
-          <div className="lg:w-64 shrink-0 flex flex-row lg:flex-col gap-2 overflow-x-auto lg:overflow-x-visible pb-2 lg:pb-0">
+          <div className="flex flex-col lg:w-64 shrink-0 gap-2">
             {solutions.map((s) => {
               const isActive = s.id === activeId;
               return (
