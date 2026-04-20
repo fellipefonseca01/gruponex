@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Sparkles } from "lucide-react";
 
-const text = "Criamos o seu site ou landing-page com design exclusivo";
+const parts = ["Criamos o seu ", { bold: "Site" }, " ou ", { bold: "Landing Page" }, " com design exclusivo"] as const;
 const items = Array.from({ length: 8 });
 
 const Marquee = () => {
@@ -16,7 +16,13 @@ const Marquee = () => {
           {items.concat(items).map((_, i) => (
             <div key={i} className="flex items-center gap-8 shrink-0">
               <span className="text-sm md:text-base font-medium text-foreground whitespace-nowrap">
-                {text}
+                {parts.map((p, idx) =>
+                  typeof p === "string" ? (
+                    <span key={idx}>{p}</span>
+                  ) : (
+                    <strong key={idx} className="font-bold text-primary">{p.bold}</strong>
+                  )
+                )}
               </span>
               <Sparkles className="w-4 h-4 text-primary shrink-0" />
             </div>
