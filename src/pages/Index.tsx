@@ -1,10 +1,10 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Marquee from "@/components/Marquee";
 import Services from "@/components/Services";
 import CustomSoftware from "@/components/CustomSoftware";
 import About from "@/components/About";
 import CTA from "@/components/CTA";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -12,12 +12,11 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <Hero />
+      <Marquee />
       <CustomSoftware />
       <Services />
       <About />
-      
       <CTA />
-      <Contact />
       <Footer />
     </div>
   );
