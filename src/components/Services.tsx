@@ -24,7 +24,7 @@ const solutions = [
       "Notificações via WhatsApp",
       "Painel completo de gestão",
     ],
-    site: "https://maxxibonus.com.br",
+    site: "https://maxxibonus.com",
   },
   {
     id: "clube",
@@ -54,7 +54,7 @@ const solutions = [
       "Funis de conversão automáticos",
       "Atendimento 24/7",
     ],
-    site: "https://zapfunnels.com.br",
+    site: "https://zapfunnels.com",
   },
 ];
 
