@@ -3,11 +3,11 @@ import {
   Users,
   Heart,
   GraduationCap,
-  ShoppingCart,
+  Bot,
   Briefcase,
   Calendar,
   BarChart3,
-  Building2,
+  Store,
   Sparkles,
   Code2,
   Cog,
@@ -20,10 +20,10 @@ const solutions = [
   { icon: Briefcase, title: "Soluções para RH", description: "Recrutamento, ponto e folha integrados" },
   { icon: Heart, title: "Sistemas para Clínicas", description: "Prontuários, agenda e faturamento" },
   { icon: GraduationCap, title: "Plataformas EAD", description: "Cursos online e gestão de alunos" },
-  { icon: ShoppingCart, title: "E-commerce sob Medida", description: "Lojas virtuais com regras próprias" },
+  { icon: Bot, title: "Soluções com IA", description: "Automação inteligente e atendimento 24/7" },
   { icon: Calendar, title: "Sistemas de Agendamento", description: "Reservas online automatizadas" },
   { icon: BarChart3, title: "Dashboards e BI", description: "Relatórios e indicadores em tempo real" },
-  { icon: Building2, title: "ERP para PMEs", description: "Gestão financeira, estoque e operações" },
+  { icon: Store, title: "Sistemas para Varejo", description: "PDV, estoque e controle de vendas" },
 ];
 
 const process = [
