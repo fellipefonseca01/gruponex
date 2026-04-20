@@ -15,10 +15,12 @@ const Navbar = () => {
           <a href="#inicio" className="hover:text-primary transition-colors">Início</a>
           <a href="#servicos" className="hover:text-primary transition-colors">Serviços</a>
           <a href="#sobre" className="hover:text-primary transition-colors">Sobre</a>
-          <a href="#contato" className="hover:text-primary transition-colors">Contato</a>
+          <a href="#cta" className="hover:text-primary transition-colors">Contato</a>
         </div>
         <a
-          href="#contato"
+          href="https://wa.me/5537998024141?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Nex%20e%20gostaria%20de%20saber%20mais."
+          target="_blank"
+          rel="noopener noreferrer"
           className="gradient-bg px-5 py-2.5 rounded-full text-sm font-semibold text-primary-foreground hover:opacity-90 transition-opacity"
         >
           Fale Conosco
