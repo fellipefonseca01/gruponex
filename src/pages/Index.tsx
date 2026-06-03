@@ -1,24 +1,10 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Marquee from "@/components/Marquee";
-import Services from "@/components/Services";
-import CustomSoftware from "@/components/CustomSoftware";
-import About from "@/components/About";
-import CTA from "@/components/CTA";
-import Footer from "@/components/Footer";
+import logo from "@/assets/logo-nex.png";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <Navbar />
-      <Hero />
-      <Marquee />
-      <CustomSoftware />
-      <Services />
-      <About />
-      <CTA />
-      <Footer />
-    </div>
+    <main className="min-h-screen w-full bg-white flex items-center justify-center">
+      <img src={logo} alt="Nex Tecnologia e Marketing" className="h-20 md:h-28" />
+    </main>
   );
 };
 
